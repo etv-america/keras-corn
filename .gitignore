@@ -102,3 +102,17 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Input and Data Files
+
+/input
+/data
+/fakes
+cropdata-U8.hdf5
+*.hdf5
+*.zip
+*.tar.gz
+
+# Model files
+*.h5
+model*
