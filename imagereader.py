@@ -3,8 +3,8 @@ import cv2, h5py
 import numpy as np
 
 #  add path for csv of other data sets when using them    
-csv_location = '/home/etv/Documents/notebooks/KerasTest/PlantData/testlst.csv'
-image_folder = '/home/etv/Documents/notebooks/KerasTest/PlantData/images_handheld/'
+csv_location = './input/fixed_handheld.csv'
+image_folder = './input/images_handheld/'
 
 def read_image_data_pairs():
     data = []
