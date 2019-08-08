@@ -31,11 +31,11 @@ As the singular purpose of this framework is to produce deployable deep learning
 ---
 + #### Model Layers and Config
 ##### Figure 1, the current model layers used in our framework
-![](https://github.com/timbernat/keras-corn/blob/master/Project%20Writeups/Report%20Pictures/Model_layers.png)
+![](https://github.com/etv-america/keras-corn/blob/master/Project%20Writeups/Report%20Pictures/Model_layers.png)
 
 The model layers (shown above) are essentially exactly as they were upon creation (using [template](must-find-link!)), which appears, upon further inspection, to be a reduced VGGNet 11 [LRN] layer configuration (see figure 2), with the final two convolution layers removed and the number of neurons in each layer halved. As we lack experience in creating ground-up neural network architecture, it is unclear to us what the ideal number and configuration of layers is. 
 ##### Figure 2: Variations on the VGGNet Neural Netwrok architecture
-![](https://github.com/timbernat/keras-corn/blob/master/Project%20Writeups/Report%20Pictures/VGGnet_model_types.png)
+![](https://github.com/etv-america/keras-corn/blob/master/Project%20Writeups/Report%20Pictures/VGGnet_model_types.png)
 
 To better understand this, we had attempted to generate multiple successive models using fixed data and hyperparameters but with different VGGNet layer configurations (according to the Figure 2 above) to observe the effects the model configuration alone had on the quality of a model, and found that any deviation from the template layers resulted in no learning progress whatsoever occurring; the choice of the layers within the original template seemed increasingly to be far from arbitrary. Consultation with machine learning experts will be required for us to optimize this factor in model performance (see [limitations/goals](#section-not-yet-completed)).
 + #### A Discussion of Hyperparameters
