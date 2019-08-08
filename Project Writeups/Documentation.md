@@ -1,10 +1,10 @@
 # Documentation 
 
 ### Modules
-The final model creation framework, in its current incarnation, consists of three central components; the image/data handler, the model generation and evaluation software, and the live predictor used in downstream processing. The functionality and purpose of each of these components within our framework is outlined below
+The final model creation framework, in its current incarnation, consists of three central components; the image/data handler, the model generation and evaluation software, and the live predictor used in downstream processing. The functionality and purpose of each of these components within our framework is outlined below [DEVNOTE: add screenshots to descs.]
 * ##### <a name="imagereader"></a> Component 1: Image and Data Handling Module (`imagereader.py`)
 This is a library of functions used for all image reading, manipulation, storage, and display needed for models. Broadly speaking, the data sets fed into our model programs are stored as sets of images with corresponding csv file containing the name of each image and its associated disease label (elaborated further in [input](#input). This library was originally had the sole purpose of reading these image folders and csv's, but was continually expanded to encompass more broad usage over time. The utilities within are often general purpose, with a counterpart function specific to our use immediately following each. The functions as listed here are accompanied by screenshots and "TRIP" descriptions which are laid out as follows:
-* `<name of function>`
+* #### `{name of function}`
 - **Takes**: <input arguments enumerated>
 - **Returns**: <function outputs enumerated>
 - **Internal References**: <name(s) of function(s) from this library that are referenced, (accompanied by the depth of reference in parenthesis)* >
