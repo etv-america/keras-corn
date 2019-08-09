@@ -59,7 +59,7 @@ Descriptions below:
 - **Purpose**: Continuing with the theme of other function pairs in this library, this function is just an extension of the adaptive grapher specific to our use; this function can be used as essentially an image set previewer over arbitrary slices of any image set in our [input](#input) folder, to inspect images and labels for correctness before training.
 
 * ##### <a name="modelgen"></a> Module 2:  Model Generator (`Plant_Disease_Model_Creator.ipynb`)
-[WIP]
+[WIP, did not have the time to finish this portion of the documentation, however, heavily commented screenshots of all of the model generator code can be found within the "Report Pictures" folder in this folder, will eventually add those here and annotate then on a cell-by-cell basis]
 
 * ##### <a name="predictor"></a> Module 3: Standalone/Live Predictor (`Live_Predictor.ipynb`)
 - **Takes:** Images placed within the folder containing this module, any pretrained model file (taken from)
